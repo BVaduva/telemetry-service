@@ -1,5 +1,3 @@
-from http.client import responses
-
 import requests
 import time
 import random
@@ -7,7 +5,7 @@ import random
 SERVER_URL = "http://localhost:8080/api/telemetry"
 
 def calc_speed():
-    return f"Speed: {random.randint(0, 200)}"
+    return {"speed": random.randint(-50, 500)}
 
 loop = True
 
@@ -15,7 +13,7 @@ while loop:
     print("##############################################################")
     generated_speed = calc_speed()
     print("Loop started. ")
-    response = requests.post(url = SERVER_URL, data = generated_speed)
+    response = requests.post(url = SERVER_URL, json = generated_speed)
     print(f"Sending data {generated_speed} to {SERVER_URL}")
     print(f"Server response: {response.status_code}")
     print("##############################################################")
@@ -31,6 +29,6 @@ while loop:
     print("##############################################################")
 
     print("Going to sleep. ")
-    time.sleep(5)
+    time.sleep(2)
     print("Woke up. ")
     print("Repeat loop. ")
