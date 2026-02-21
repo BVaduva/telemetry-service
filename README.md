@@ -10,7 +10,7 @@
 
 ## System Architecture
 
-The system simulates a complete IoT data pipeline, decoupled into a Producer (Client) and Consumer (Server).
+The system simulates a complete IoT data pipeline, decoupled into a Producer (Client) and Consumer (Server). WIP.
 
 * **Client ("The Car"):** A Python-based simulation engine that generates fluctuating sensor data (Speed, RPM, Battery Level) and streams it via HTTP POST.
 * **Server (The Backend):** A Spring Boot 3 REST API designed to receive, validate, and process the incoming telemetry stream.
