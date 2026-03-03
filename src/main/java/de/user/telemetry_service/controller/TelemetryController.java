@@ -1,7 +1,7 @@
-package de.berni.telemetry_service.controller;
+package de.user.telemetry_service.controller;
 
-import de.berni.telemetry_service.model.TelemetryData;
-import de.berni.telemetry_service.service.TelemetryService;
+import de.user.telemetry_service.model.TelemetryData;
+import de.user.telemetry_service.service.TelemetryService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

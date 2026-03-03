@@ -1,4 +1,4 @@
-package de.berni.telemetry_service.model;
+package de.user.telemetry_service.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

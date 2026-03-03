@@ -91,6 +91,18 @@ Server response: 400
 Send wrong URL or bad Data.
 ```
 
-## Phase 3: Smart Retrieval
+## Phase 3: Technology Evaluation & Conclusion (PoC Completed)
 
-Create specific, filtered queries using URL parameters.
+After successfully building the core pipeline (Routing, DI, Data Validation), I decided to conclude this project as a Proof of Concept (PoC).
+
+Why? An architectural realization.
+While Spring Boot's "convention over configuration" and heavy use of annotations (@RestController, @Autowired) allow for rapid development, 
+I found that it obscures the underlying control flow. The framework "magic" hides the actual wiring of the application.
+
+As a developer who values explicit code execution, clear state management, and transparent data flow(which I heavily utilized in my Event-Driven GameDev architecture), 
+the Spring Boot philosophy doesn't align perfectly with my preferred engineering style.
+
+**Takeaway:**
+This PoC was successful in its primary goal: It taught me the fundamentals of the JVM ecosystem, REST paradigms, and standard Enterprise patterns. 
+However, moving forward, I am shifting my focus to the C#/.NET ecosystem. 
+My goal is to leverage C#'s strong object-oriented features to build robust backend logic, while consciously managing framework abstractions rather than blindly relying on them.

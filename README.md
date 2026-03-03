@@ -1,16 +1,16 @@
-# IoT Telemetry Ingestion Service
+# IoT Telemetry Ingestion Service (PoC)
 
 ![Java](https://img.shields.io/badge/Java-17_LTS-orange?logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Framework-Spring_Boot_3-green?logo=springboot)
-![Status](https://img.shields.io/badge/Status-Active_Development-blue)
+![Status](https://img.shields.io/badge/Status-Completed_PoC-blue)
 
-> **Project Goal:** Implementation of a high-performance backend simulation for a "Connected Car" system. The service accepts real-time sensor streams and processes them for cloud storage.
+> **Project Goal:** A technical Proof of Concept (PoC) to evaluate Spring Boot 3 for high-performance IoT data ingestion. The core pipeline (Producer -> REST -> Validation) was successfully implemented to assess the framework's architecture.
 >
-> 📖 **Read about my learning process, architectural decisions, and challenges in the [JOURNEY.md](JOURNEY.md).**
+> 📖 **Read about my learning process, the implemented architecture, and why I ultimately concluded this PoC in the [JOURNEY.md](JOURNEY.md).**
 
-## System Architecture
-
-The system simulates a complete IoT data pipeline, decoupled into a Producer (Client) and Consumer (Server).
+## 🏗️ System Architecture
+The system simulates a complete IoT data pipeline, decoupled into a Producer (Client) and Consumer (Server).<br/>
+*(**Note:** Core logic is implemented and runnable. Extended database routing was scoped out after the PoC evaluation).*
 
 * **Client ("The Car"):** A Python-based simulation engine that generates fluctuating sensor data (Speed, RPM, Battery Level) and streams it via HTTP POST.
 * **Server (The Backend):** A Spring Boot 3 REST API designed to receive, validate, and process the incoming telemetry stream.

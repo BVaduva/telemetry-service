@@ -1,6 +1,6 @@
-package de.berni.telemetry_service.repository;
+package de.user.telemetry_service.repository;
 
-import de.berni.telemetry_service.model.TelemetryData;
+import de.user.telemetry_service.model.TelemetryData;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

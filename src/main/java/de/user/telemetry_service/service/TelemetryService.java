@@ -1,7 +1,7 @@
-package de.berni.telemetry_service.service;
+package de.user.telemetry_service.service;
 
-import de.berni.telemetry_service.model.TelemetryData;
-import de.berni.telemetry_service.repository.TelemetryRepository;
+import de.user.telemetry_service.model.TelemetryData;
+import de.user.telemetry_service.repository.TelemetryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

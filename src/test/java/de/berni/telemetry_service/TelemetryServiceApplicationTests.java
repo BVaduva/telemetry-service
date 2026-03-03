@@ -1,4 +1,4 @@
-package de.berni.telemetry_service;
+package de.user.telemetry_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

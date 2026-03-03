@@ -8,7 +8,7 @@
 		<version>4.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>de.berni</groupId>
+	<groupId>de.user</groupId>
 	<artifactId>telemetry-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>telemetry-service</name>

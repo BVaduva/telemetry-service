@@ -1,4 +1,4 @@
-package de.berni.telemetry_service; // package basically namespace
+package de.user.telemetry_service; // package basically namespace
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
