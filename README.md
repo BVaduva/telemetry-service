@@ -6,9 +6,9 @@
 
 > **Project Goal:** A technical Proof of Concept (PoC) to evaluate Spring Boot 3 for high-performance IoT data ingestion. The core pipeline (Producer -> REST -> Validation) was successfully implemented to assess the framework's architecture.
 >
-> 📖 **Read about my learning process, the implemented architecture, and why I ultimately concluded this PoC in the [JOURNEY.md](JOURNEY.md).**
+>  **Read about my learning process, the implemented architecture, and why I ultimately concluded this PoC in the [JOURNEY.md](JOURNEY.md).**
 
-## 🏗️ System Architecture
+## System Architecture
 The system simulates a complete IoT data pipeline, decoupled into a Producer (Client) and Consumer (Server).<br/>
 *(**Note:** Core logic is implemented and runnable. Extended database routing was scoped out after the PoC evaluation).*
 
